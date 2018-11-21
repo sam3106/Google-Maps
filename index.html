@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAIR336hGMVCnyARDIGq2L4uOLd_eNVJDo"
+    ></script>
+    <!-- I've bootstraped my api using my google created api key -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+      <h4>Where do you want to eat?</h4>
+
+      <input id="pac-input" type="text" placeholder="e.g. Mcdonalds" />
+    </nav>
+
+    <div id="map"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

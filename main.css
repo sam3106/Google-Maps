@@ -1,0 +1,32 @@
+html,
+body,
+#map {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.cf:before,
+.cf:after {
+  content: ' ';
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+#search-container {
+  width: 100%;
+  min-height: 8vh;
+  background: blue;
+}
+h3 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+input {
+  margin: 3vh 2vh 3vh 0;
+  float: right;
+  height: 5vh;
+}
